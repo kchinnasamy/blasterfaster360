@@ -1,5 +1,5 @@
 /// @function bounce_off_screen_edge(decceleration)
-/// @description Bounce of the object when reaching the edge of the screen
+/// @description Bounce of when reaching the edge of the screen
 /// @param {real} decceleration Decceleration for the object
 
 var _bounce_decceleration = argument[0];
