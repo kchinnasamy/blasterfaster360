@@ -6,4 +6,7 @@ if (other.object_index == o_enemy_two ) {
 }
 if (other.armor <= 0) {
 	score += _score_points;
+	if (score > global.highscore) {
+		global.highscore = score;
+	} 
 }
